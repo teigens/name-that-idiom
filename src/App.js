@@ -194,7 +194,7 @@ export default function App() {
   if (!gameStarted) {
     return (
       <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100">
-        <h1 className="text-4xl font-bold mb-4 text-indigo-700">Name That Idiom 🎶</h1>
+        <h1 className="text-4xl font-bold mb-4 text-indigo-700">Name That Idiom: Music Meets Mandarin🎶</h1>
         <button
           onClick={() => setGameStarted(true)}
           className="bg-indigo-600 text-white px-6 py-3 rounded-md text-lg hover:bg-indigo-700"
